@@ -1,0 +1,13 @@
+<p>about works!</p>
+
+<div *ngFor="let user of users" class="card">
+    <div>
+        <img [src]="user.avatar" alt="avatar" />
+    </div>
+    <div>
+        <p>{{user.email}}</p>
+        <p>{{user.last_name}}</p>
+        <p>{{user.first_name}}</p>
+    </div>
+
+</div>
