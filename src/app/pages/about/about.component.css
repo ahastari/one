@@ -1,7 +1,7 @@
-div.card {
+div.card{
     display: flex;
 }
 
-div.card div {
-    padding: 0 1em;
+div.card div{
+    padding: 0;
 }
